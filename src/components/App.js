@@ -1,6 +1,7 @@
 import Dashboard from './Dashboard'
 import Navbar from './Navbar'
 import './sb-admin-2.css'
+import './sb-admin-2.min.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import CardsPage from './CardsPage'
 import ColorsPage from './ColorsPage'

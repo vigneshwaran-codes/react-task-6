@@ -1,5 +1,5 @@
 // Dashboard page
-import React from 'react';
+import React from 'react'
 import ProfilePic from '../images/undraw_profile.svg'
 import Projects from './Projects'
 import Colors from './Colors'
@@ -29,7 +29,7 @@ function Dashboard () {
                 />
                 <div className='input-group-append'>
                   <button className='btn btn-primary' type='button'>
-                    <i className='fas fa-search fa-sm'>Search</i>
+                    <i className='fas fa-search fa-sm'></i>
                   </button>
                 </div>
               </div>
@@ -43,7 +43,7 @@ function Dashboard () {
               <li className='nav-item dropdown no-arrow'>
                 <a
                   className='nav-link dropdown-toggle'
-                  href='#'
+                  href='#user'
                   id='userDropdown'
                   role='button'
                   data-toggle='dropdown'
@@ -70,7 +70,7 @@ function Dashboard () {
             <div className='d-sm-flex align-items-center justify-content-between mb-4'>
               <h1 className='h3 mb-0 text-gray-800'>Dashboard</h1>
               <a
-                href='#'
+                href='#report'
                 className='d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm'
               >
                 <i className='fas fa-download fa-sm text-white-50' /> Generate

@@ -25,6 +25,15 @@ const data = [
         ]
       },
       {
+        title: 'Components',
+        topics: [
+          {
+            name: 'Cards',
+            link: '/cards'
+          }
+        ]
+      },
+      {
         title: 'Utilities',
         topics: [
           {
@@ -34,6 +43,15 @@ const data = [
           {
             name: 'Borders',
             link: '/borders'
+          }
+        ]
+      },
+      {
+        title: 'ADDONS',
+        topics: [
+          {
+            name: 'Charts',
+            link: '/charts'
           }
         ]
       }
