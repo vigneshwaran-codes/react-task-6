@@ -37,7 +37,7 @@ class Users extends React.Component {
 
   createUser = async () => {
     try {
-      const { userId, name, email, phone } = this.state;
+      const { name, email, phone } = this.state;
       const { data } = await axios.post(API_URL, {
         name,
         email,
@@ -103,7 +103,7 @@ class Users extends React.Component {
   };
 
   validate = (e) => {
-    const { name, email } = this.state;
+    const { email } = this.state;
 
     var atposition = email.indexOf("@");
     var dotposition = email.lastIndexOf(".");
